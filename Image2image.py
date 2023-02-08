@@ -17,8 +17,8 @@ def get_images(path, cell_size):
     return images, result
 
 
-cell_size = 5
-image = cv2.imread("aaa.jpg")
+cell_size = 25
+image = cv2.imread("ccc.jpg")
 height, width, _ = image.shape
 num_cols = width // cell_size
 num_rows = height // cell_size
